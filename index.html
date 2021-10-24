@@ -10,7 +10,7 @@
   <!-- FONTE ROBOTO  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -20,38 +20,40 @@
         <span>
           <img src="images/build.svg" alt="selo rocketseat">
         </span>
-        <img src="https://lorempixel.com/185/185/people/" alt="foto pessoal">
+        <img id="userImage" src="https://lorempixel.com/185/185/people/" alt="foto pessoal">
       </div>
-      <h1>César Henrique</h1>
-        <a href="https://github.com/CesarHenry" target="_blank"> 
+      <h1 id="userName">César Henrique</h1>
+        <a id="userLink" href="https://github.com/CesarHenry" target="_blank"> 
           <img src="images/github.svg" alt="ícone github"> 
-          CesarHenry</a>        
+          <span id="userLogin">CesarHenry</span></a>        
 
-        <p>An student focused on learning programming for web</p>
+        <p id="userBio">An student focused on learning programming for web</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a href="https://www.youtube.com/c/RocketSeat" target="_blank">
             <img src="images/youtube.svg" alt="ícone youtube">
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://www.instagram.com/cesaar_henry/" target="_blank">
             <img src="images/instagram.svg" alt="ícone instagram">
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a href="https://www.facebook.com/francielemaria.piresdasilva"  target="_blank">
             <img src="images/facebook.svg" alt="ícone facebook">
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" class="twitter">
             <img src="images/twitter.svg" alt="ícone twitter">
             </a>
           </li>         
         </ul>
     </div>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
